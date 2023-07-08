@@ -1,6 +1,4 @@
-package a;
-
-import a.swing.StringInputGUI;
+import swing.StringInputGUI;
 
 import java.util.Locale;
 

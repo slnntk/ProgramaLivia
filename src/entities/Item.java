@@ -1,6 +1,5 @@
-package a.entities;
+package entities;
 
-import java.util.Objects;
 
 public class Item {
 

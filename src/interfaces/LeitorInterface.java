@@ -1,8 +1,7 @@
-package a.interfaces;
+package interfaces;
 
-import a.entities.Item;
+import entities.Item;
 
-import java.util.List;
 import java.util.Set;
 
 public interface LeitorInterface {

@@ -1,10 +1,10 @@
-package a.swing;
+package swing;
 
-import a.entities.Item;
-import a.interfaces.LeitorInterface;
-import a.interfaces.VerificadorInterface;
-import a.services.Leitor;
-import a.util.Verificador;
+import entities.Item;
+import interfaces.LeitorInterface;
+import interfaces.VerificadorInterface;
+import services.Leitor;
+import util.Verificador;
 
 import javax.swing.*;
 import java.util.Set;

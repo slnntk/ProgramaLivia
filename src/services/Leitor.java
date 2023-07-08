@@ -1,7 +1,7 @@
-package a.services;
+package services;
 
-import a.interfaces.LeitorInterface;
-import a.entities.Item;
+import interfaces.LeitorInterface;
+import entities.Item;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

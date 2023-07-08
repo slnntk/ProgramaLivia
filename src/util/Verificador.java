@@ -1,12 +1,9 @@
-package a.util;
+package util;
 
-import a.entities.Item;
-import a.interfaces.VerificadorInterface;
+import entities.Item;
+import interfaces.VerificadorInterface;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 public class Verificador implements VerificadorInterface {
