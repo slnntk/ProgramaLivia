@@ -15,14 +15,12 @@ public class StringInputGUI extends JFrame {
     private JButton button;
 
     public StringInputGUI() {
-        // Configurações da janela
         setTitle("Input de Strings");
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(null);
 
-        // Criação dos componentes
         textField1 = new JTextField();
         textField1.setBounds(50, 30, 200, 30);
 
@@ -41,17 +39,14 @@ public class StringInputGUI extends JFrame {
             verificador.compararListas(listEmp, listMLG);
         });
 
-        // Adiciona os componentes à janela
         add(textField1);
         add(textField2);
         add(button);
 
-        // Exibe a janela
         setVisible(true);
     }
 
     private void minhaFuncao(String input1, String input2) {
-        // Faça algo com as strings digitadas
         JOptionPane.showMessageDialog(this, "Você digitou: " + input1 + " e " + input2);
     }
 
