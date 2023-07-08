@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ProgramaLivia:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProgramaLivia_jar</output-path>
+    <root id="archive" name="ProgramaLivia.jar">
+      <element id="module-output" name="ProgramaLivia" />
+    </root>
+  </artifact>
+</component>

@@ -22,6 +22,7 @@ public class Verificador implements VerificadorInterface {
                         System.out.println("MLG: " + itemMLG.getItem()+ ": " + itemMLG.getValorUnitario());
                         System.out.println("IFCE: " + itemEmpresa.getItem() + ": " + itemEmpresa.getValorUnitario());
                         System.out.println("--------------------------------------------------------------------");
+                        break;
                     }
                 }
             }
