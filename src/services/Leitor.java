@@ -14,6 +14,7 @@ import java.util.Set;
 public class Leitor implements LeitorInterface {
     private static final DecimalFormat DECIMAL_FORMAT = new DecimalFormat("0.00");
 
+    //melhorar essa parte
     public Set<Item> lerArchiveEmp(String path) {
         Set<Item> itemList = new HashSet<>();
 
@@ -40,6 +41,7 @@ public class Leitor implements LeitorInterface {
         return itemList;
     }
 
+    //melhorar essa parte
     public Set<Item> lerArchiveMlg(String path) {
         Set<Item> itemList = new HashSet<>();
 

@@ -1,6 +1,7 @@
 package entities;
 
 
+//melhorar essa parte
 public class Item {
 
     private String item;
